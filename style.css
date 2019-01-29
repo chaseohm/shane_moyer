@@ -19,20 +19,9 @@ p{
     padding: 0;
 }
 
-/*.white-bgH{*/
-    /*position: absolute;*/
-    /*top: -70px;*/
-    /*min-height: 280px;*/
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*transform: skewY(-5deg);*/
-    /*!*background: black url("images/shane5.jpg") no-repeat;*!*/
-    /*background-size: contain;*/
-/*}*/
-
 .white-bg{
     position: absolute;
-    top: 1650px;
+    top: 2350px;
     background-color: rgba(0, 0, 0,0.9);
     min-height: 200px;
     margin: 210px 0px;
@@ -58,20 +47,20 @@ p{
 /*MUSIC VIDEOS*/
 .white-bg3{
     position: absolute;
-    top: 1000px;
-    background-color: rgba(27,43,88,0.3);
+    top: 1700px;
+    background-color: rgba(90,210,235,0.3);
     min-height: 200px;
     margin: 210px 0px;
     width: 100%;
     height: auto;
     transform: skewY(-5deg);
-    border-top: 3px solid blue;
-    border-bottom: 3px solid darkblue;
+    border-top: 3px solid cyan;
+    border-bottom: 3px solid steelblue;
 }
 
 .white-bg4{
     position: absolute;
-    top: 1550px;
+    top: 1950px;
     background-color: rgba(0, 0, 0,0.3);
     min-height: 200px;
     margin: 210px 0px;
@@ -82,7 +71,7 @@ p{
 
 .content {
     position: absolute;
-    top: 1630px;
+    top: 2330px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
@@ -91,7 +80,7 @@ p{
 
 .content2 {
     position: absolute;
-    top: 575px;
+    top: 555px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
@@ -103,7 +92,7 @@ p{
 
 .content3 {
     position: absolute;
-    top: 900px;
+    top: 1600px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
@@ -113,35 +102,13 @@ p{
 
 .content4 {
     position: absolute;
-    top: 1575px;
+    top: 2275px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
     transform: skewY(-5deg);
     margin-left: 25px;
 }
-
-/*.shadowH{*/
-    /*box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);*/
-    /*border-bottom: 5px black;*/
-/*}*/
-
-/*.shadow{*/
-    /*box-shadow: -2px -5px 5px 0px rgba(0, 0, 0,0.3);*/
-    /*border-bottom: 5px black;*/
-/*}*/
-
-/*.shadow2{*/
-    /*box-shadow: -2px -5px 5px 0px rgba(0, 0, 0,0.3);*/
-/*}*/
-
-/*.shadow3{*/
-    /*box-shadow: -2px -5px 5px 0px rgba(0, 0, 0,0.3);*/
-/*}*/
-
-/*.shadow4{*/
-    /*box-shadow: -2px -5px 5px 0px rgba(0, 0, 0,0.3);*/
-/*}*/
 
 #bio{
     font-size: 20px;
@@ -154,6 +121,7 @@ p{
     font-size: 40px;
     text-align: center;
     color: whitesmoke;
+    padding: 50px
 }
 .h1{
     font-family: Montserrat;
@@ -233,4 +201,19 @@ a:active {
     box-shadow: -2px -5px 5px 0px rgba(0,0,0,0.3);
 }
 
+#spots1{
+    float: left;
+    margin-left: 130px;
+}
+#spots2{
+    float: right;
+    margin-left: 40px;
+}
+.sub-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+#new-releases{
+    display: inline-block;
+}
 
