@@ -80,7 +80,7 @@ p{
 
 .content2 {
     position: absolute;
-    top: 555px;
+    top: 510px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
@@ -92,7 +92,7 @@ p{
 
 .content3 {
     position: absolute;
-    top: 1600px;
+    top: 1555px;
     margin: 250px 10vw;
     max-width: 100%;
     background-color: transparent;
@@ -124,31 +124,35 @@ p{
     padding: 50px
 }
 .h1{
-    font-family: Montserrat;
+    font-family: "Arial Black";
     font-size: 150px;
 }
 
 /* unvisited link */
 a:link {
     color: white;
+    text-shadow: 3px 3px #0094C6;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: white;
+    text-shadow: 3px 3px #0094C6;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: white;
+    color: #EF798A;
+    text-shadow: 3px 3px white;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: white;
+    color: #EF798A;
+    text-shadow: 3px 3px white;
     text-decoration: none;
 }
 
