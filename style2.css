@@ -1,6 +1,6 @@
 body{
-    background-image: url("images/Shane_Moyer14063_hires.jpg");
     background-size: cover;
+    background: url("images/Shane_Moyer14063_hires.jpg") no-repeat;
 }
 
 #desktopDisplay{
@@ -9,25 +9,26 @@ body{
 
 
 .blue-bg{
-    align-content: center;
-    display: block;
-    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+    align-content:center ;
     width: 100%;
     height: 550px;
     margin: 0;
     padding: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) no-repeat;
 }
 
 #spotify{
-    width: 30%;
+    width: 50%;
     height: auto;
+    margin-top: 5px;
 }
 #instagram{
-    width: 30%;
+    width: 50%;
     height: auto;
+    margin-top: 23px;
 }
 #twitter{
-    width: 34%;
+    width: 53%;
     height: auto;
 }
 
