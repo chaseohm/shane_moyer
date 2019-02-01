@@ -33,10 +33,10 @@ body{
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 420px) {
     body{
         background-size: cover;
-        background: url("images/tabletshane.jpeg") no-repeat;
+        background: url("images/tabletshane.jpeg") no-repeat fixed;
     }
 
     #desktopDisplay{
