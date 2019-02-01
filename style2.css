@@ -1,5 +1,46 @@
-/***************************************DESKTOP*************************************/
-@media screen and (min-width: 455px) {
+body{
+    background-image: url("images/Shane_Moyer14063_hires.jpg");
+    background-size: cover;
+}
+
+#desktopDisplay{
+    display: none;
+}
+
+
+.blue-bg{
+    align-content: center;
+    display: block;
+    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1));
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+#spotify{
+    width: 30%;
+    height: auto;
+}
+#instagram{
+    width: 30%;
+    height: auto;
+}
+#twitter{
+    width: 34%;
+    height: auto;
+}
+
+
+@media screen and (min-width: 375px) {
+
+}
+
+
+@media screen and (min-width: 1300px) {
+    #desktopDisplay{
+        display: block;
+    }
 
     html {
         margin-left: -10px;
@@ -233,139 +274,4 @@
         display: inline-block;
     }
 }
-
-/************************************CELLPHONE***************************************/
-
-@media screen and (max-width: 455px) {
-    body{
-        background: url("images/Shane_Moyer14063_hires.jpg") no-repeat;
-        background-size: 500px;
-        position: relative;
-    }
-    #fbook {
-        height: 40px;
-        width: 40px;
-        display: block;
-        /*margin-top: 205px;*/
-        /*margin-right: -105px;*/
-    }
-
-    #twitter {
-        height: 35px;
-        width: 35px;
-        display: block;
-        /*margin-top: 295px;*/
-        /*margin-right: -95px;*/
-    }
-
-    #spotify {
-        height: 30px;
-        width: 30px;
-        display: block;
-        /*margin-top: 480px;*/
-    }
-
-    #instagram {
-        height: 28px;
-        width: 28px;
-        display: block;
-
-        /*margin-top: 390px;*/
-        /*margin-right: -85px;*/
-    }
-    .white-bg2 {
-        position: absolute;
-        top: 85px;
-        background-color: black;
-        min-height: 40px;
-        margin: 210px 0px;
-        width: 100%;
-        /*height: auto;*/
-        transform: skewY(-5deg);
-        border-top: 3px solid whitesmoke;
-        border-bottom: 3px solid whitesmoke;
-    }
-    .content2 {
-        position: absolute;
-        top: 275px;
-        max-width: 100%;
-        background-color: transparent;
-        transform: skewY(-5deg);
-        font-size: 20px;
-        color: whitesmoke;
-        margin-left: 8px;
-    }
-    .white-bg3 {
-        position: absolute;
-        top: 185px;
-        background-color: black;
-        min-height: 40px;
-        margin: 210px 0px;
-        width: 100%;
-        /*height: auto;*/
-        transform: skewY(-5deg);
-        border-top: 3px solid whitesmoke;
-        border-bottom: 3px solid whitesmoke;
-    }
-    .content3 {
-        position: absolute;
-        top: 128px;
-        max-width: 100%;
-        background-color: transparent;
-        transform: skewY(-5deg);
-        margin: 250px 10vw 250px 8px;
-    }
-    #video {
-        float: left;
-        margin-left: 80px;
-        margin-top: -50px;
-        box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
-        display: none;
-    }
-
-    #video2 {
-        float: right;
-        margin-left: 40px;
-        margin-top: -50px;
-        box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
-        display: none;
-    }
-
-    #spots1 {
-        float: left;
-        margin-left: 130px;
-        display: none;
-    }
-
-    #spots2 {
-        float: right;
-        margin-left: 40px;
-        display: none;
-    }
-
-    .sub-header {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-    }
-
-    #new-releases {
-        display: inline-block;
-    }
-    #bio {
-        font-size: 20px;
-        font-family: SansSerif;
-        text-align: center;
-        color: whitesmoke;
-        display: none;
-    }
-
-    #bioT {
-        font-family: Montserrat;
-        font-size: 40px;
-        text-align: center;
-        color: whitesmoke;
-        padding: 50px;
-        display: none;
-    }
 }
-
